@@ -1,0 +1,55 @@
+
+
+.container-img {
+  height: 420px;
+  width: 100%;
+}
+
+.container-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+header{
+  position: relative;
+}
+
+.header-body-section{
+  position: absolute;
+   top: 0;
+  width: 100%;
+  color: white;
+}
+
+.zomato-name-img {
+  width: 300px;
+}
+
+.zomato-container-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  height: 420px;
+  flex-direction: column;
+}
+
+.zomato-name-content{
+  position: relative;
+  top: -50px;
+}
+
+.discover{
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.search-item input {
+  background-color: white;
+  width: 300px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 10px;
+}
+
